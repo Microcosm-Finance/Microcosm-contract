@@ -1,0 +1,18 @@
+{
+    "name": "mebking",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "compile": "npx hardhat compile --show-stack-traces"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@nomiclabs/hardhat-ethers": "^2.0.5",
+        "@openzeppelin/contracts": "^4.5.0",
+        "hardhat": "^2.8.4",
+        "solidity-linked-list": "^5.1.0"
+    }
+}
